@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "731661865356",
+    "project_id": "project-jm-285006",
+    "storage_bucket": "project-jm-285006.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731661865356:android:bd93a323a1ef39926d86a9",
+        "android_client_info": {
+          "package_name": "com.Romanbard.Jumo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731661865356-8fmj6li0dbj3po1ivuelv0tbpusqff67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Romanbard.Jumo",
+            "certificate_hash": "0b2e6c144f1681c0da1b12eab082fdbde99d16dd"
+          }
+        },
+        {
+          "client_id": "731661865356-r42ud7lrlh5075t0d8p0eguikmpe9cuc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Romanbard.Jumo",
+            "certificate_hash": "e7fcb9dc0132ba12d0ef4ec81f52afb71a72b7f9"
+          }
+        },
+        {
+          "client_id": "731661865356-711jkpslcn33g6ucs3pagqrj2d0a4pdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVMdB1w9MObrJ0-I1Gwk-DkuAn9dRTSVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731661865356-711jkpslcn33g6ucs3pagqrj2d0a4pdk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "731661865356-cvk7uanpj5447li22qb41ltngi4qa9uq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Romanbard.Jumo"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2916740756566809~6692369735"
+    }
+  ],
+  "configuration_version": "1"
+}
