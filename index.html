@@ -29,11 +29,11 @@
 </div>
 <script>
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/220921_WebTest_CDN.loader.js";
+    var loaderUrl = buildUrl + "/WEB.loader.js";
     var config = {
-        dataUrl: buildUrl + "/220921_WebTest_CDN.data",
-        frameworkUrl: buildUrl + "/220921_WebTest_CDN.framework.js",
-        codeUrl: buildUrl + "/220921_WebTest_CDN.wasm",
+        dataUrl: buildUrl + "/WEB.data",
+        frameworkUrl: buildUrl + "/WEB.framework.js",
+        codeUrl: buildUrl + "/WEB.wasm",
         symbolsUrl: buildUrl + "/",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Romanbard",
@@ -282,6 +282,8 @@
         WXSetKeepScreenOn(){},
         WXIsCloudTest(){ return false;},
         WXUncaughtException(){},
+        WXSetDataCDN() {},
+        WXSetPreloadList() {},
             WX_AddCard(conf, callbackId){
     },
     WX_AuthPrivateMessage(conf, callbackId){
@@ -531,6 +533,10 @@
     WX_GetUserGameLiveDetails(conf, callbackId){
     },
     WX_OpenChannelsLiveCollection(conf, callbackId){
+    },
+    WX_OpenPage(conf, callbackId){
+    },
+    WX_GetGameClubData(conf, callbackId){
     },
 
     WX_RestartMiniProgram(){
